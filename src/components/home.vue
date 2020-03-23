@@ -18,7 +18,7 @@ export default {
       title: 'home',
       products: [
         {
-          productName: "Latte Coffee",
+          productName: "Latte",
           image: require('../assets/latte-coffee.jpg')
         },
         {
@@ -52,9 +52,12 @@ export default {
 <style scoped>
 .home {
   color: white;
+  margin: 3rem;
 }
+
 h4 {
-  margin: 2rem;
+  margin-top: 8.4rem;
+  margin-bottom: 1.7rem;
 }
 
 h5 {
@@ -63,5 +66,6 @@ h5 {
 img {
   margin: 1rem;
   border-radius: 1rem;
+  cursor: pointer;
 }
 </style>
