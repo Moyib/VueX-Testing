@@ -57,7 +57,7 @@
 
 import serve from './components/serve.vue'
 import name from './components/name.vue'
-
+import 'bootstrap/dist/js/bootstrap.bundle'
 export default {
   name: 'App',
   components: {
